@@ -1,0 +1,84 @@
+site_name: A Guide to the Pulse Pro Website
+
+nav:
+    #- Home: 'index.md'
+    - Overview: 'overview.md'
+    - Tracking Workouts: 'tracking_workouts.md'
+    - Nutrition and Diet: 'nutrition_and_diet.md'
+    - Troubleshooting and Support: 'troubleshooting_and_support.md'
+theme:
+    name: material
+    logo: assets/site_assets/home_logo.png
+    language: en
+    features:
+        - search.highlight
+        - search.share
+        - content.tooltips
+        - navigation.sections
+        - navigation.indexes
+        - navigation.expand
+        - navigation.top
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs        
+        - navigation.tabs.sticky
+        - navigation.path
+    icon:
+    repo: fontawesome/brands/git-alt 
+    palette:
+    # Palette toggle for automatic mode
+        - media: "(prefers-color-scheme)"
+          toggle:
+            icon: material/brightness-auto
+            name: Switch to light mode
+    # Palette toggle for light mode
+        - media: "(prefers-color-scheme: light)"
+          scheme: default 
+          toggle:
+            icon: material/brightness-7
+            name: Switch to dark mode
+    # Palette toggle for dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          toggle:
+            icon: material/brightness-4
+            name: Switch to system preference
+    font:
+        text: Roboto
+        code: Roboto Mono
+    favicon: assets/site_assets/favicon.ico
+
+markdown_extensions:
+    - tables
+    - abbr
+    - attr_list
+    - pymdownx.snippets
+    - def_list
+
+plugins:
+    - search
+    - glightbox
+
+extra_css:
+    - stylesheets/extra.css
+
+extra:
+    social:
+        - icon: fontawesome/brands/linkedin
+          link: https://www.linkedin.com
+        - icon: fontawesome/brands/instagram
+          link: https://www.instagram.com
+        - icon: fontawesome/brands/twitter
+          link: https://twitter.com
+        - icon: fontawesome/brands/facebook
+          link: https://www.facebook.com
+    generator: false
+
+repo_url: https://github.com/tusharsonawanes/docsnow
+repo_name: tusharsonawanes/docsnow
+
+markdown_extensions:
+    - attr_list
+    - md_in_html
+
+copyright: Copyright &copy; 2023 - Pulse Pro 
