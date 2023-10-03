@@ -1,0 +1,24 @@
+{
+    "primarySkills": [
+      { "name": "AGIILE METHODOLOGIES", "selfRating": "1", "chapterLeadRating": "0" },
+      { "name": "JIRA", "selfRating": "1", "chapterLeadRating": "0" },
+      { "name": "KANBAN", "selfRating": "1", "chapterLeadRating": "0" },
+      { "name": "SCRUM", "selfRating": "1", "chapterLeadRating": "0" },
+      { "name": "SCALED AGILE FRAMEWORK", "selfRating": "1", "chapterLeadRating": "0" },
+      { "name": "PRODUCT DISCOVERY", "selfRating": "1", "chapterLeadRating": "0" },
+      { "name": "PRODUCT PLANNING", "selfRating": "1", "chapterLeadRating": "0" },
+      { "name": "PRODUCT DEVELOPMENT", "selfRating": "1", "chapterLeadRating": "0" },
+      { "name": "XTREME PROGRAMMING (XP)", "selfRating": "1", "chapterLeadRating": "0" }
+    ],
+    "secondarySkills": [],
+    "softSkills": [
+      
+    ],
+    "languages": [
+      {
+        "name": "German",
+        "selfRating": "1",
+        "chapterLeadRating": "0"
+      }
+    ]
+  }
